@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+body{font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    background: #a4a3a3;
+    justify-content: center; /* também serve para centralizar*/
+    width: 100%;
+    height: 100%;
+}
+
+form{background: rgb(231, 231, 231);
+    border-radius: 8px;
+    width: 300px; /* Width - faz com que uns dos campos mude de posição*/
+    margin: 200px auto; /* Margin - faz com que ambos campos se desloque.*/
+    text-align: center; /* Text-align - faz com que todos os campos se movam (centro etc).*/
+}
+
+input{
+    display: block; /* display - fez com que os campos ficassem alenhados*/
+    margin:10px auto; /*Margin - centralizou os campos*/
+    width: 250px; /* width - aumentou os campos de preenchimentos (comprimento - horizontal)*/
+    height: 30px; /*fez com que o campo ficasse mais largo (altura - vertical)*/
+
+}
+button{
+    background: #03840b;
+    color: rgb(255, 255, 255);
+    width: 30%;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+
+}
+
+button:hover{
+    background: rgb(4, 127, 109);
+}
